@@ -1,10 +1,24 @@
-# django-images
+# Deploy app to Google App Engine (Google Cloud)
 
-A simple image hosting application written in Django.
+## Acknowledgements
 
-This project is primarily used to demonstrate how to [deploy](https://github.com/duplxey/django-images#want-to-learn-how-to-deploy-this-project) Django to various platforms.
+1. Deploy application in `Google App Engine`
 
-## Want to use this project?
+3. Spin up a Postgres instance on `Cloud SQL`.
+
+5. Utilize `Secret Manager` to handle environment variables and secrets.
+
+7. Set up persistent storage for static and media files with `Cloud Storage`.
+
+9. Scan application security vulnerabilities using `Security Scans`.
+
+10. Set up `App Engine firewall rules` for Application.
+
+## Operating system
+
+I used `Ubuntu 2022.04.3`
+
+## Run Django Application
 
 1. Fork/Clone
 
@@ -29,16 +43,16 @@ This project is primarily used to demonstrate how to [deploy](https://github.com
 5. Run the server:
 
     ```sh
-    (venv)$ python manage.py runserver
-    ```
-    
- 6. Navigate to [http://localhost:8000/](http://localhost:8000/) in your favorite web browser.
 
-## Want to learn how to deploy this project?
+ 6. Navigate to [http://localhost:8000/](http://localhost:8000/) in web browser.
 
-- [Google App Engine](https://testdriven.io/blog/django-gae/)
-- [AWS Elastic Beanstalk](https://testdriven.io/blog/django-elastic-beanstalk/)
-- [Render](https://testdriven.io/blog/django-render/)
-- [Fly.io](https://testdriven.io/blog/django-fly/)
-- [Dokku](https://testdriven.io/blog/django-dokku/)
+## Google App Engine Architecture Diagram
+
+![alt text](ModelGAE.png)
+
+## My Demo - Deploy application
+
+1. [Full version demo](https://drive.google.com/file/d/1XPSelk2VsdQ3uyk4D1B5ORSNQDvIJUJr/view?usp=sharing)
+
+3. [Results demo (without installation process)](https://drive.google.com/file/d/1rRK3a8bwlTIZLxiO2zxNOHEhgSG9-Bwy/view?usp=sharing)
 
