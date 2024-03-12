@@ -42,7 +42,9 @@ I used `Ubuntu 2022.04.3`
 
 5. Run the server:
 
-    ```sh
+   ```sh
+    (venv)$ python manage.py runserver
+    ```
 
  6. Navigate to [http://localhost:8000/](http://localhost:8000/) in web browser.
 
