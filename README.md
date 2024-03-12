@@ -20,7 +20,7 @@ I used `Ubuntu 2022.04.3`
 
 ## Run Django Application
 
-1. Fork/Clone
+1. Clone Django project
 
 2. Create and activate a virtual environment:
 
