@@ -50,7 +50,7 @@ I used `Ubuntu 2022.04.3`
 
 ## Google App Engine Architecture Diagram
 ![alt text](ModelGAE.png)
-* Designed by [Phuong Linh]('https://github.com/ptpl2602')
+Designed by [Phuong Linh](https://github.com/ptpl2602)
 
 ## My Demo - Deploy application
 
