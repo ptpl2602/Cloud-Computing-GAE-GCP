@@ -4,15 +4,15 @@
 
 1. Deploy application in `Google App Engine`
 
-3. Spin up a Postgres instance on `Cloud SQL`.
+2. Create and configure a PostgreSQL instance on `Cloud SQL`.
 
-5. Utilize `Secret Manager` to handle environment variables and secrets.
+3. Employ `Secret Manager` for managing environment variables and sensitive data.
 
-7. Set up persistent storage for static and media files with `Cloud Storage`.
+4. Configure `Cloud Storage` for the preservation of static and media files.
 
-9. Scan application security vulnerabilities using `Security Scans`.
+5. Scan application security vulnerabilities using `Security Scans`.
 
-10. Set up `App Engine firewall rules` for Application.
+6. Set up `App Engine firewall rules` for Application.
 
 ## Operating system
 
