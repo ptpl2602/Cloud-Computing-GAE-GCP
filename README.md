@@ -1,4 +1,4 @@
-# Deploy app to Google App Engine (Google Cloud)
+# Deploy Application to Google App Engine (Google Cloud)
 
 ## Acknowledgements
 
